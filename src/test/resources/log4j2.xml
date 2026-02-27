@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG" name="loggingLog">
+	<Appenders>
+		<Console name="CONSOLE">
+			<PatternLayout>
+				<Pattern>%d - %m%n</Pattern>
+			</PatternLayout>
+		</Console>
+		<File name="FILE" fileName="Logs\logfile.log">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</File>
+	</Appenders>
+
+	<Loggers>
+		<Root level="INFO">
+			<AppenderRef ref="CONSOLE" />
+			<AppenderRef ref="FILE" />
+		</Root>
+	</Loggers>
+</Configuration>

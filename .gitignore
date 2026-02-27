@@ -1,0 +1,54 @@
+/target/
+# Eclipse IDE files
+.metadata/
+.settings/
+.project
+.classpath
+.container
+
+# Build directories
+bin/
+target/
+build/
+out/
+
+# Maven/Gradle
+.mvn/
+.gradle/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java files
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+test-output/
+reports/
+surefire-reports/
+failsafe-reports/
+allure-results/
+
+# Test automation
+Screenshot/
+videos/
+drivers/
+chromedriver.log
+geckodriver.log
+
+# Local config
+*.env
+.env.*
+local.properties
